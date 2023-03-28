@@ -1,1 +1,14 @@
-"<?php\n\nrequire/vendor/autoload.php';\nFlight::route('/', function(){\n echo 'Hello, world!';\n});\n\nFlight::start();" 
+<?php
+
+require 'vendor/autoload.php';
+
+Flight::route('/', function(){
+    echo 'Hello, world!';
+});
+
+Flight::start();
+
+
+
+
+
